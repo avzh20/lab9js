@@ -1,0 +1,95 @@
+.aa {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.aaa {
+    margin: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: white;
+    color: blue;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+}
+
+.aaa:hover {
+    transform: rotate(10deg);
+}
+
+.sps {
+    height: 300px;
+}
+
+.b {
+    transform: rotate(350deg);
+}
+
+.bb {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.bbb {
+    margin: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: white;
+    color: blue;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+}
+
+.bbb:hover {
+    box-shadow: 0 0 0 1px blue;
+    border-width: 10px;
+    border-color: white;
+}
+
+.cc {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.ccc {
+    margin: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: white;
+    color: blue;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+    transform: skew(350deg, 0);
+}
+
+.ccc:hover {
+    box-shadow: 0 0 0 1px blue;
+    border-width: 10px;
+    border-color: white;
+}
+
+#myButton {
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+#myText {
+    float: left;
+    transition: 5s;
+}
+
+.abobus {
+    transform: skew(5deg, 0);
+}

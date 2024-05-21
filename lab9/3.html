@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="3.css">
+Задача 1. Меню прямое, вторая ссылка активная, при наведении как 4-я<br>
+<img src="1.png">
+<hr>
+<ul>
+    <li class="aa"><div class="aaa">link text 1</div></li>
+    <li class="aa"><div class="aaa">link text 2</div></li>
+    <li class="aa"><div class="aaa">link text 3</div></li>
+    <li class="aa"><div class="aaa">link text 4</div></li>
+    <li class="aa"><div class="aaa">link text 5</div></li>
+</ul>
+<hr>
+Задача 2. Меню, при наведении 3-я ссылка<br>
+<img src="2.png">
+<hr>
+<div class="sps">
+<ul class="b">
+    <li class="bb"><div class="bbb">link text 1</div></li>
+    <li class="bb"><div class="bbb">link text 2</div></li>
+    <li class="bb"><div class="bbb">link text 3</div></li>
+    <li class="bb"><div class="bbb">link text 4</div></li>
+    <li class="bb"><div class="bbb">link text 5</div></li>
+</ul>
+</div>
+<hr>
+Задача 3. Меню, при наведении 3-я ссылка<br>
+<img src="3.png">
+<hr>
+<ul class="c">
+    <li class="cc"><div class="ccc">link text 1</div></li>
+    <li class="cc"><div class="ccc">link text 2</div></li>
+    <li class="cc"><div class="ccc">link text 3</div></li>
+    <li class="cc"><div class="ccc">link text 4</div></li>
+    <li class="cc"><div class="ccc">link text 5</div></li>
+</ul>
+<hr>
+Задача 4. Текст, сбоку перевёрнутая кнопка, при наведении на кнопку, 
+сделать перевернутый текст<br>
+<img src="4.png">
+<hr>
+<p id="myText">Для продолжения операции, вам необходимо перевести на счет 9384 8246 9284 9273 сумму в размере 10 000 белорусских рублей</p><br><br><br>
+<button id="myButton">Связь...</button><br><br><br><br><br>
+<script>
+    document.getElementById("myButton").addEventListener("mouseover", function() {
+        document.getElementById("myText").style.transform = "rotate(180deg)";
+    });
+    document.getElementById("myButton").addEventListener("mouseout", function() {
+        document.getElementById("myText").style.transform = "rotate(0deg)";
+    });
+</script>
+<hr>
+Задача 5. Косой текст<br>
+<img src="5.png">
+<hr>
+<p class="abobus">
+    а<br>
+    аa<br>
+    аaa<br>
+    аaaa<br>
+    аaaaa<br>
+    аaaaaa<br>
+    аaaaaaa<br>
+    аaaaaaaa<br>
+    аaaaaaaaa<br>
+    аaaaaaaaaaa<br>
+</p>
